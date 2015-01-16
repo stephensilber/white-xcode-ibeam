@@ -1,2 +1,11 @@
 # white-xcode-ibeam
-A tiny script and a pure white Ibeam icon to replace the black Ibeam in Xcode
+This script will replace the black Ibeam icon in Xcode with a pure white one (or any one that you name 'DVTIbeamCursor.tiff' in this directory)
+
+
+To install, cd into the white-xcode-ibeam directory and run
+
+	sudo ./updateCursor.sh "Xcode.app"
+
+Replace "Xcode.app" with "Xcode-Beta.app" if you're running an Xcode beta
+
+Restart Xcode for changes to take affect. If you'd lke to revert, this script has made a backup called DVTIbeamCursor_old.tiff in its existing directory
