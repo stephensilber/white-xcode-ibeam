@@ -4,6 +4,7 @@ This script will replace the black Ibeam icon in Xcode with a pure white one (or
 
 To install, cd into the white-xcode-ibeam directory and run
 
+	chmod +x updateCursor.sh
 	sudo ./updateCursor.sh "Xcode.app"
 
 Replace "Xcode.app" with "Xcode-Beta.app" if you're running an Xcode beta
